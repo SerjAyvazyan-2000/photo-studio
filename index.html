@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Фотостудия №186</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Фотостудия №186 (W-LAB) в Оренбурге: 200 м², 6 залов, циклорама, интерьеры, подкастная. Аренда от 700 ₽, горячие часы −30% по будням, контент под ключ.">
+<meta name="theme-color" content="#14110f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<!-- Затвор при загрузке -->
+<div class="shutter" id="shutter" aria-hidden="true">
+  <div class="shutter__blades"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="shutter__label mono">№186 · f/1.8 · 1/125</div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="focus-cursor" id="focusCursor" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+<!-- Шапка -->
+<header class="header" id="header">
+  <div class="header__inner wrap">
+    <a href="#top" class="logo" aria-label="Фотостудия №186 — наверх">
+      <span class="logo__num">№186</span>
+      <span class="logo__sub mono">W-LAB · Оренбург</span>
+    </a>
+    <nav class="nav" aria-label="Основное меню">
+      <a href="#halls">Залы</a>
+      <a href="#prices">Цены</a>
+      <a href="#content">Контент под ключ</a>
+      <a href="#gallery">Работы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header__right">
+      <span class="frame-counter mono" id="frameCounter" aria-hidden="true">кадр 01/36</span>
+      <a href="#booking" class="btn btn--light btn--sm magnetic">Забронировать</a>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="progress" id="progress"></div>
+</header>
+
+<!-- Мобильное меню -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav class="mobile-menu__nav" aria-label="Мобильное меню">
+    <a href="#halls"><span class="mono">01</span>Залы</a>
+    <a href="#prices"><span class="mono">02</span>Цены и калькулятор</a>
+    <a href="#content"><span class="mono">03</span>Контент под ключ</a>
+    <a href="#podcast"><span class="mono">04</span>Подкасты</a>
+    <a href="#gallery"><span class="mono">05</span>Работы</a>
+    <a href="#contacts"><span class="mono">06</span>Контакты</a>
+  </nav>
+  <div class="mobile-menu__foot">
+    <a href="#booking" class="btn btn--amber">Забронировать зал</a>
+    <p class="mono">Проезд Северный, 24 · 09:00–21:00</p>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow mono"><span class="rec"></span>REC · Оренбург · <span id="heroTime">--:--</span></p>
+        <h1 class="hero__title split">Свет уже выставлен. <em>Вам осталось снять.</em></h1>
+        <p class="hero__lead">Фотостудия №186 — 200&nbsp;м² и шесть залов для фотосессий, рилс и видеоподкастов. Циклорама, интерьеры, подкастная, свет и реквизит включены. Мебель можно двигать под свою идею.</p>
+        <div class="hero__cta">
+          <a href="#booking" class="btn btn--amber btn--lg magnetic">Забронировать от 700 ₽</a>
+          <a href="#halls" class="btn btn--ghost btn--lg">Смотреть залы</a>
+        </div>
+        <ul class="hero__stats">
+          <li><b data-count="200">200</b><span>м² площадь</span></li>
+          <li><b data-count="6">6</b><span>м потолки</span></li>
+          <li><b data-count="6">6</b><span>залов и локаций</span></li>
+          <li><b>−30<small>%</small></b><span>будни 9–12</span></li>
+        </ul>
+      </div>
+
+      <div class="hero__visual">
+        <figure class="viewfinder parallax" data-speed="0.06">
+          <img src="assets/images/ecoloft-model.jpg" alt="Фотосессия модели в чёрном платье среди текстильных кос в зале ЭкоЛофт" width="959" height="1280" fetchpriority="high">
+          <span class="vf vf--tl"></span><span class="vf vf--tr"></span><span class="vf vf--bl"></span><span class="vf vf--br"></span>
+          <span class="vf-grid" aria-hidden="true"></span>
+          <span class="vf-focus" aria-hidden="true"></span>
+          <figcaption class="exif mono">
+            <span>ЭкоЛофт</span><span>f/2.0</span><span>1/160</span><span>ISO 200</span>
+          </figcaption>
+        </figure>
+        <figure class="hero__mini parallax" data-speed="-0.08">
+          <img src="assets/images/nude-mirror.jpg" alt="Девушка отражается в асимметричном зеркале в зале Nude" width="960" height="1280">
+          <figcaption class="mono">Nude · зеркало</figcaption>
+        </figure>
+        <div class="hero__badge" aria-hidden="true">
+          <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><text><textPath href="#circ">горячая локация недели · −50% · горячая локация недели · −50% ·</textPath></text></svg>
+          <b>−50%</b>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Бегущая строка -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Циклорама</span><i>✦</i><span>ЭкоЛофт</span><i>✦</i><span>Бордо</span><i>✦</i><span>Красный кирпич</span><i>✦</i><span>Подземная парковка</span><i>✦</i><span>Nude</span><i>✦</i><span>Фольга</span><i>✦</i><span>Подкастная</span><i>✦</i><span>Бабл-уголок</span><i>✦</i>
+      <span>Циклорама</span><i>✦</i><span>ЭкоЛофт</span><i>✦</i><span>Бордо</span><i>✦</i><span>Красный кирпич</span><i>✦</i><span>Подземная парковка</span><i>✦</i><span>Nude</span><i>✦</i><span>Фольга</span><i>✦</i><span>Подкастная</span><i>✦</i><span>Бабл-уголок</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- ПРЕИМУЩЕСТВА -->
+  <section class="section why" id="why">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow mono">Почему снимают у нас</p>
+        <h2 class="h2">Одна бронь — <em>десяток разных кадров</em></h2>
+        <p class="section__lead">Вы приходите с идеей. Всё остальное уже в студии: свет, фоны, мебель, гримёрка и горячий чай.</p>
+      </div>
+
+      <div class="bento">
+        <article class="bento__item bento__item--big reveal">
+          <img src="assets/images/ecoloft-braids.jpg" alt="Стена из огромных текстильных кос, монстера и солнечные блики на паркете" loading="lazy" width="724" height="1280">
+          <div class="bento__over">
+            <span class="mono tag">потолки до 6 м</span>
+            <h3>Воздух и естественный свет</h3>
+            <p>Высокие потолки и окна на северо-запад дают мягкий свет без жёстких теней — кожа выглядит живой без ретуши.</p>
+          </div>
+        </article>
+        <article class="bento__item reveal">
+          <span class="bento__icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M4 22h24M8 22V12h16v10M11 12V8h10v4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <h3>Мебель двигается</h3>
+          <p>Переставляйте кресла, диван и реквизит под свою раскадровку. Одна локация — несколько сцен.</p>
+        </article>
+        <article class="bento__item reveal">
+          <span class="bento__icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M16 3v4M16 25v4M3 16h4M25 16h4M7 7l3 3M22 22l3 3M25 7l-3 3M10 22l-3 3" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          <h3>Импульсный свет</h3>
+          <p>Постоянный и импульсный свет, софтбоксы и штативы. Прокат оборудования на месте.</p>
+        </article>
+        <article class="bento__item bento__item--accent reveal">
+          <b class="bento__big">15</b>
+          <h3>человек в зале</h3>
+          <p>Хватит места на команду, визажиста и гостей мероприятия.</p>
+        </article>
+        <article class="bento__item reveal">
+          <ul class="perks">
+            <li>Гримёрка с рабочим местом</li>
+            <li>Бесплатная парковка у входа</li>
+            <li>Кулер, чай и вода</li>
+            <li>Реквизит для съёмок</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ЗАЛЫ -->
+  <section class="section halls" id="halls">
+    <div class="wrap">
+      <div class="section__head section__head--row reveal">
+        <div>
+          <p class="eyebrow mono">Залы и локации</p>
+          <h2 class="h2">Шесть миров <em>под одной крышей</em></h2>
+        </div>
+        <p class="section__lead">Выберите зал — справа сразу видно площадь, высоту, оснащение и цену.</p>
+      </div>
+
+      <div class="halls__layout">
+        <div class="halls__list" role="tablist" aria-label="Залы студии" id="hallTabs"></div>
+        <div class="halls__stage" id="hallStage" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ -->
+  <section class="section hot" id="hot">
+    <div class="wrap hot__grid">
+      <div class="hot__card hot__card--clock reveal">
+        <p class="eyebrow mono">Горячие часы</p>
+        <h2 class="h2 h2--sm">Будни с 9 до 12 — <em>аренда на 30% дешевле</em></h2>
+        <div class="clock" aria-live="polite">
+          <div class="clock__face mono" id="orenClock">--:--</div>
+          <p class="clock__status" id="orenStatus">Считаем время в Оренбурге…</p>
+        </div>
+        <p class="muted">Утро — лучшее время для мягкого дневного света и спокойной съёмки без спешки.</p>
+        <a href="#prices" class="btn btn--light">Посчитать стоимость</a>
+      </div>
+
+      <div class="hot__card hot__card--week reveal">
+        <img src="assets/images/ecoloft-model.jpg" alt="" loading="lazy" width="959" height="1280">
+        <div class="hot__week-body">
+          <p class="eyebrow mono">Каждый понедельник</p>
+          <h2 class="h2 h2--sm">Горячая локация недели <em>за полцены</em></h2>
+          <p>Один зал всю неделю со скидкой 50% при аренде от 1 часа. Анонс выходит в нашем Telegram — подпишитесь, чтобы успеть забронировать первым.</p>
+          <a href="https://t.me/w_lab56" target="_blank" rel="noopener" class="btn btn--amber magnetic">Узнать локацию недели</a>
+          <p class="fine">Скидка на отдельную локацию, не на всю студию. Акции не суммируются.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ЦЕНЫ / КАЛЬКУЛЯТОР -->
+  <section class="section prices" id="prices">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow mono">Прозрачные цены</p>
+        <h2 class="h2">Сколько стоит <em>ваша съёмка</em></h2>
+        <p class="section__lead">Минимальная бронь — 30 минут. Чем дольше снимаете, тем ниже цена за час.</p>
+      </div>
+
+      <div class="calc reveal">
+        <form class="calc__form" id="calcForm" onsubmit="return false">
+          <fieldset class="calc__field">
+            <legend class="mono">Зал</legend>
+            <div class="chips" id="calcHalls"></div>
+          </fieldset>
+          <fieldset class="calc__field">
+            <legend class="mono">Длительность</legend>
+            <div class="range">
+              <input type="range" id="calcHours" min="0.5" max="8" step="0.5" value="2" aria-label="Длительность аренды в часах">
+              <output id="calcHoursOut" class="mono">2 ч</output>
+            </div>
+          </fieldset>
+          <fieldset class="calc__field">
+            <legend class="mono">Время</legend>
+            <label class="switch">
+              <input type="checkbox" id="calcMorning">
+              <span class="switch__track"><span class="switch__knob"></span></span>
+              <span>Будни, с 9:00 до 12:00 <b class="amber">−30%</b></span>
+            </label>
+          </fieldset>
+        </form>
+        <div class="calc__result">
+          <p class="mono calc__label">Итого</p>
+          <p class="calc__total"><span id="calcTotal">4 000</span> ₽</p>
+          <p class="calc__rate mono" id="calcRate">2 000 ₽/ч</p>
+          <p class="calc__note" id="calcNote"></p>
+          <a href="#booking" class="btn btn--amber btn--lg magnetic" id="calcBook">Забронировать</a>
+        </div>
+      </div>
+
+      <div class="table-wrap reveal">
+        <table class="ptable">
+          <thead><tr><th>Зал</th><th>Площадь</th><th>от 1 часа</th><th>30 минут</th><th>Будни 9–12</th></tr></thead>
+          <tbody id="priceRows"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- КОНТЕНТ ПОД КЛЮЧ -->
+  <section class="section content" id="content">
+    <div class="wrap">
+      <div class="content__grid">
+        <div class="content__intro reveal">
+          <p class="eyebrow mono">Контент под ключ</p>
+          <h2 class="h2">Один час съёмки — <em>контент на месяц вперёд</em></h2>
+          <p class="section__lead">Не хотите разбираться в свете и монтаже? Команда студии придумает, снимет и смонтирует ролики для вашего бизнеса. Вы приходите, пьёте кофе и говорите в кадр.</p>
+          <a href="#booking" class="btn btn--amber magnetic" data-service="Контент под ключ">Обсудить проект</a>
+        </div>
+        <ol class="steps">
+          <li class="reveal"><span class="mono">01</span><div><h3>Бриф</h3><p>Разбираем задачи бизнеса и аудиторию, собираем темы роликов.</p></div></li>
+          <li class="reveal"><span class="mono">02</span><div><h3>Сценарии</h3><p>Пишем тексты и раскадровку, выбираем локации под каждый формат.</p></div></li>
+          <li class="reveal"><span class="mono">03</span><div><h3>Съёмка</h3><p>Свет выставлен до вашего прихода. Суфлёр, пара дублей — и готово.</p></div></li>
+          <li class="reveal"><span class="mono">04</span><div><h3>Монтаж</h3><p>Отдаём готовые рилс, нарезки и обложки под публикацию.</p></div></li>
+        </ol>
+      </div>
+
+      <div class="myths">
+        <p class="eyebrow mono reveal">Три мысли, которые мешают снимать</p>
+        <div class="myths__grid">
+          <article class="myth reveal">
+            <p class="myth__q">«Сниму на телефон дома, зачем студия?»</p>
+            <p>Чистый звук, ровный свет и аккуратный фон зритель считывает за секунду. Это и есть доверие к вам как к эксперту.</p>
+          </article>
+          <article class="myth reveal">
+            <p class="myth__q">«На контент нет времени»</p>
+            <p>Пока вы готовитесь, команда уже выставила свет. При хорошей подготовке за час снимается материал на месяц.</p>
+          </article>
+          <article class="myth reveal">
+            <p class="myth__q">«Это дорого и не окупается»</p>
+            <p>Не окупается дешёвый контент, который никто не смотрит. Качественный ролик месяцами приводит клиентов.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПОДКАСТЫ -->
+  <section class="section podcast" id="podcast">
+    <div class="wrap podcast__grid">
+      <figure class="podcast__img reveal">
+        <img src="assets/images/podcast-room.jpg" alt="Подкастная: зелёное и белое кресла, микрофоны на пантографах, оранжевая подсветка фактурной стены" loading="lazy" width="1280" height="1194">
+        <div class="onair mono"><span></span>ON AIR</div>
+      </figure>
+      <div class="podcast__text reveal">
+        <p class="eyebrow mono">Подкастная</p>
+        <h2 class="h2">Запишите подкаст, <em>который хочется досмотреть</em></h2>
+        <p class="section__lead">Изолированная комната на 8&nbsp;м² с фактурной стеной и тёплой подсветкой. Сели в кресла — и пишете.</p>
+        <div class="wave" aria-hidden="true" id="wave"></div>
+        <ul class="kit">
+          <li>2 кресла и столик</li>
+          <li>Микрофоны на пантографах</li>
+          <li>Штативы и софтбоксы</li>
+          <li>Суфлёр (по запросу)</li>
+        </ul>
+        <div class="podcast__foot">
+          <p class="price-tag">от <b>1 200 ₽</b> / 30 мин</p>
+          <a href="#booking" class="btn btn--amber magnetic" data-hall="podcast">Записать подкаст</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ГАЛЕРЕЯ -->
+  <section class="section gallery" id="gallery">
+    <div class="wrap">
+      <div class="section__head section__head--row reveal">
+        <div>
+          <p class="eyebrow mono">Снято в студии</p>
+          <h2 class="h2">Кадры, которые <em>говорят сами</em></h2>
+        </div>
+        <p class="section__lead">Нажмите на фото, чтобы рассмотреть локацию целиком.</p>
+      </div>
+      <div class="masonry" id="masonry">
+        <button class="shot shot--tall reveal" data-full="assets/images/ecoloft-model.jpg" data-cap="ЭкоЛофт · портрет среди текстильных кос">
+          <img src="assets/images/ecoloft-model.jpg" alt="Портрет в зале ЭкоЛофт" loading="lazy" width="959" height="1280">
+          <span class="shot__cap mono">ЭкоЛофт · портрет</span>
+        </button>
+        <button class="shot reveal" data-full="assets/images/podcast-room.jpg" data-cap="Подкастная · тёплый свет и два кресла">
+          <img src="assets/images/podcast-room.jpg" alt="Подкастная комната" loading="lazy" width="1280" height="1194">
+          <span class="shot__cap mono">Подкастная</span>
+        </button>
+        <button class="shot shot--tall reveal" data-full="assets/images/nude-mirror.jpg" data-cap="Nude · асимметричное зеркало для съёмки одежды">
+          <img src="assets/images/nude-mirror.jpg" alt="Съёмка у зеркала в зале Nude" loading="lazy" width="960" height="1280">
+          <span class="shot__cap mono">Nude · зеркало</span>
+        </button>
+        <button class="shot shot--tall reveal" data-full="assets/images/ecoloft-braids.jpg" data-cap="ЭкоЛофт · косы, монстера и солнечные блики">
+          <img src="assets/images/ecoloft-braids.jpg" alt="Интерьер ЭкоЛофт с текстильными косами" loading="lazy" width="724" height="1280">
+          <span class="shot__cap mono">ЭкоЛофт · интерьер</span>
+        </button>
+        <!-- Сюда добавятся видео: <button class="shot" data-video="assets/video/reel-1.mp4">...</button> -->
+      </div>
+
+      <div class="cases">
+        <p class="eyebrow mono reveal">У нас записывали</p>
+        <div class="cases__grid">
+          <article class="case reveal">
+            <span class="case__type mono">подкаст</span>
+            <h3>Бизнес-клуб «Апгрейд»</h3>
+            <p>Выпуск о влиянии воды на здоровье с экспертом и главврачом клиники «Оксимед».</p>
+          </article>
+          <article class="case reveal">
+            <span class="case__type mono">подкаст</span>
+            <h3>Санаторий «Бузулукский бор»</h3>
+            <p>Разговор с тремя врачами о лечении, современных процедурах и отдыхе в сосновом бору.</p>
+          </article>
+          <article class="case reveal">
+            <span class="case__type mono">съёмка</span>
+            <h3>Группа «Шум»</h3>
+            <p>Музыкальная съёмка с драйвом, смехом и большой командой в кадре.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq" id="faq">
+    <div class="wrap faq__grid">
+      <div class="reveal">
+        <p class="eyebrow mono">Вопросы перед бронью</p>
+        <h2 class="h2">Коротко <em>о правилах</em></h2>
+        <p class="section__lead">Не нашли ответ? Напишите нам в Telegram — ответим быстро.</p>
+        <a href="https://t.me/w_lab56" target="_blank" rel="noopener" class="btn btn--light">Спросить в Telegram</a>
+      </div>
+      <div class="accordion">
+        <details class="reveal" open>
+          <summary>Какое минимальное время аренды?<i></i></summary>
+          <p>От 30 минут. Начиная с часа цена за час становится ниже. Последние 5 минут брони отводятся на сборы и выход из зала.</p>
+        </details>
+        <details class="reveal">
+          <summary>Сколько человек может прийти?<i></i></summary>
+          <p>До 15 человек в зале. Для мероприятий удобнее арендовать студию целиком — 185 м² со всеми локациями.</p>
+        </details>
+        <details class="reveal">
+          <summary>Можно ли переставлять мебель?<i></i></summary>
+          <p>Да. Двигайте кресла, диван и реквизит под свою идею — только верните всё на место в конце съёмки.</p>
+        </details>
+        <details class="reveal">
+          <summary>Есть ли свет и оборудование?<i></i></summary>
+          <p>Есть постоянный и импульсный свет, софтбоксы и штативы. Дополнительное оборудование можно взять в прокат на месте.</p>
+        </details>
+        <details class="reveal">
+          <summary>Где парковаться?<i></i></summary>
+          <p>Рядом со студией есть бесплатная парковка.</p>
+        </details>
+        <details class="reveal">
+          <summary>Вы сотрудничаете с фотографами?<i></i></summary>
+          <p>Да, приглашаем фотографов и контент-мейкеров на фотодни. С нас локация, декорации и анонс в наших сторис.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- БРОНЬ + КОНТАКТЫ -->
+  <section class="section booking" id="booking">
+    <div class="booking__glow" aria-hidden="true"></div>
+    <div class="wrap booking__grid">
+      <div class="booking__form-wrap reveal">
+        <p class="eyebrow mono">Заявка на съёмку</p>
+        <h2 class="h2">Забронируйте <em>свой свет</em></h2>
+        <p class="section__lead">Оставьте заявку — администратор подтвердит свободное время и поможет выбрать зал.</p>
+
+        <form class="form" id="bookingForm" novalidate>
+          <div class="form__row">
+            <label class="field">
+              <input type="text" id="fName" name="name" placeholder=" " autocomplete="name" required>
+              <span>Ваше имя</span>
+            </label>
+            <label class="field">
+              <input type="tel" id="fPhone" name="phone" placeholder=" " autocomplete="tel" inputmode="tel" required>
+              <span>Телефон</span>
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="field field--select">
+              <select id="fHall" name="hall">
+                <option value="">Пока не выбрал(а)</option>
+              </select>
+              <span>Зал</span>
+            </label>
+            <label class="field">
+              <input type="date" id="fDate" name="date" placeholder=" ">
+              <span>Желаемая дата</span>
+            </label>
+          </div>
+          <label class="field">
+            <textarea id="fMsg" name="msg" rows="3" placeholder=" "></textarea>
+            <span>Идея съёмки или вопрос</span>
+          </label>
+          <label class="check">
+            <input type="checkbox" id="fAgree" required>
+            <span>Соглашаюсь на обработку персональных данных и принимаю <button type="button" class="link" data-modal="privacy">политику конфиденциальности</button></span>
+          </label>
+          <button type="submit" class="btn btn--amber btn--lg btn--block magnetic">Отправить заявку</button>
+          <p class="form__msg" id="formMsg" role="status"></p>
+        </form>
+        <p class="booking__alt">Удобнее сразу выбрать время? <a href="https://appevent.ru/w/17453" target="_blank" rel="noopener">Онлайн-бронь в календаре →</a></p>
+      </div>
+
+      <div class="contacts reveal" id="contacts">
+        <div class="contacts__card">
+          <p class="eyebrow mono">Контакты</p>
+          <dl class="contacts__list">
+            <div><dt class="mono">Адрес</dt><dd>Оренбург, Проезд Северный, 24</dd></div>
+            <div><dt class="mono">Часы</dt><dd>Ежедневно 09:00–21:00</dd></div>
+            <div><dt class="mono">Telegram</dt><dd><a href="https://t.me/w_lab56" target="_blank" rel="noopener">@w_lab56</a></dd></div>
+            <div><dt class="mono">Instagram*</dt><dd><a href="https://www.instagram.com/w_lab56" target="_blank" rel="noopener">w_lab56</a></dd></div>
+            <div><dt class="mono">Онлайн-бронь</dt><dd><a href="https://appevent.ru/w/17453" target="_blank" rel="noopener">appevent.ru/w/17453</a></dd></div>
+          </dl>
+          <div class="map">
+            <div class="map__art" aria-hidden="true">
+              <span class="map__road map__road--a"></span><span class="map__road map__road--b"></span><span class="map__road map__road--c"></span>
+              <span class="map__pin"><b>№186</b></span>
+            </div>
+            <a class="btn btn--light btn--block" href="https://yandex.ru/maps/?text=%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%2C%20%D0%9F%D1%80%D0%BE%D0%B5%D0%B7%D0%B4%20%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%2C%2024" target="_blank" rel="noopener">Построить маршрут</a>
+          </div>
+          <p class="fine">*Instagram принадлежит Meta, признанной экстремистской и запрещённой в РФ.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Подвал -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__big" aria-hidden="true">№186</div>
+    <div class="footer__row">
+      <p>© <span id="year">2026</span> Фотостудия №186 · W-LAB, Оренбург</p>
+      <div class="footer__links">
+        <button type="button" class="link" data-modal="privacy">Политика конфиденциальности</button>
+        <button type="button" class="link" data-modal="cookies">Политика cookie</button>
+      </div>
+    </div>
+    <p class="footer__credit">Сайт разработан в студии <a href="https://studio-psi-olive.vercel.app/" target="_blank" rel="noopener">Сайтика</a></p>
+  </div>
+</footer>
+
+<!-- Мобильная плашка -->
+<div class="mbar" id="mbar">
+  <a href="https://t.me/w_lab56" target="_blank" rel="noopener" class="btn btn--light">Telegram</a>
+  <a href="#booking" class="btn btn--amber">Забронировать</a>
+</div>
+
+<!-- Cookie -->
+<div class="cookie" id="cookie" role="dialog" aria-live="polite" aria-label="Уведомление о cookie" hidden>
+  <p>Мы используем cookie, чтобы сайт работал удобнее. Продолжая пользоваться сайтом, вы соглашаетесь с <button type="button" class="link" data-modal="cookies">политикой cookie</button>.</p>
+  <div class="cookie__btns">
+    <button type="button" class="btn btn--ghost btn--sm" id="cookieDecline">Только необходимые</button>
+    <button type="button" class="btn btn--amber btn--sm" id="cookieAccept">Принять</button>
+  </div>
+</div>
+
+<!-- Лайтбокс -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Просмотр фото">
+  <button class="lightbox__close" id="lbClose" aria-label="Закрыть">×</button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Предыдущее фото">←</button>
+  <figure><img id="lbImg" src="" alt=""><figcaption class="mono" id="lbCap"></figcaption></figure>
+  <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Следующее фото">→</button>
+</div>
+
+<!-- Модалки политик -->
+<div class="modal" id="modal-privacy" hidden role="dialog" aria-modal="true" aria-labelledby="privacyTitle">
+  <div class="modal__box">
+    <button class="modal__close" data-close aria-label="Закрыть">×</button>
+    <h2 id="privacyTitle">Политика конфиденциальности</h2>
+    <div class="modal__body">
+      <p>Настоящая политика описывает, как Фотостудия №186 (W-LAB), г. Оренбург, Проезд Северный, 24 (далее — Студия) обрабатывает персональные данные посетителей сайта в соответствии с Федеральным законом № 152-ФЗ «О персональных данных».</p>
+      <h3>1. Какие данные мы собираем</h3>
+      <p>Имя, номер телефона, желаемую дату и зал, текст сообщения, которые вы добровольно указываете в форме заявки, а также технические данные: cookie, IP-адрес, тип браузера и устройства.</p>
+      <h3>2. Зачем мы их используем</h3>
+      <p>Для связи с вами по заявке, подтверждения и организации бронирования, ответа на вопросы и улучшения работы сайта. Мы не передаём данные третьим лицам, кроме случаев, предусмотренных законодательством РФ.</p>
+      <h3>3. Хранение и защита</h3>
+      <p>Данные хранятся не дольше, чем это нужно для целей обработки, и защищаются организационными и техническими мерами от несанкционированного доступа.</p>
+      <h3>4. Ваши права</h3>
+      <p>Вы можете запросить сведения о своих данных, их уточнение или удаление, а также отозвать согласие на обработку, написав нам в Telegram @w_lab56.</p>
+      <h3>5. Согласие</h3>
+      <p>Отправляя форму на сайте, вы подтверждаете согласие на обработку персональных данных на условиях этой политики.</p>
+    </div>
+  </div>
+</div>
+<div class="modal" id="modal-cookies" hidden role="dialog" aria-modal="true" aria-labelledby="cookiesTitle">
+  <div class="modal__box">
+    <button class="modal__close" data-close aria-label="Закрыть">×</button>
+    <h2 id="cookiesTitle">Политика использования cookie</h2>
+    <div class="modal__body">
+      <p>Cookie — небольшие файлы, которые сайт сохраняет в вашем браузере. Они помогают сайту запоминать ваши настройки и понимать, какие разделы полезны посетителям.</p>
+      <h3>Какие cookie мы используем</h3>
+      <p><b>Необходимые</b> — обеспечивают работу сайта и запоминают ваш выбор в этом уведомлении.<br><b>Аналитические</b> — помогают собирать обезличенную статистику посещений. Используются только с вашего согласия.</p>
+      <h3>Как управлять cookie</h3>
+      <p>Вы можете отказаться от необязательных cookie в уведомлении на сайте или удалить cookie в настройках браузера. Это не помешает пользоваться сайтом.</p>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
